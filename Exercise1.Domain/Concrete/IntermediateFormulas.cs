@@ -15,7 +15,7 @@ namespace Exercise1.Domain.Concrete
         {
             double paremeter;
             double area;
-            paremeter = 1 / 2 * (a + b + c);
+            paremeter = 1.0 / 2.0 * (a + b + c);
             area = Math.Sqrt(paremeter * (paremeter - a) * (paremeter - b) * (paremeter - c));
             return area;
         }

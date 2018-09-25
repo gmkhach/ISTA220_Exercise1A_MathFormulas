@@ -29,7 +29,7 @@ namespace Exercise1.Domain.Concrete
         public double VolumeOfHemisphere(double radius)
         {
             double volume;
-            volume = 1/2 * (3/4 * Math.PI * radius * radius * radius);
+            volume = 1.0/2.0 * (3.0/4.0 * Math.PI * radius * radius * radius);
             return volume;
         }
     }
